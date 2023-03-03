@@ -1,6 +1,6 @@
 package com.eati.pexels.domain
 
-data class Photo(
+data class PhotoExt(
     val id: Int,
     val width: Int,
     val height: Int,
@@ -11,4 +11,5 @@ data class Photo(
     val avgColor: String,
     val liked: Boolean,
     val alt: String,
+    val sourceURL: String,
 )
